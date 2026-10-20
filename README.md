@@ -52,7 +52,9 @@ Flutter로 화면을 만들고 FastAPI로 서비스 흐름을 연결합니다.<b
 ### Moltong · 몰통 — 곤란한 순간, 자연스러운 전화 한 통
 <sub>AI CALL · FLUTTER · 5인 팀 '위기탈출넘버콜' · <b>원티드 AI 챔피언십 본선 TOP 10</b></sub>
 
-<a href="https://moltong.vercel.app"><img src="https://portfolioweb-zeta-six.vercel.app/images/moltong-live.jpg" alt="몰통 배포 사이트 첫 화면" width="100%" /></a>
+<table>
+  <tr><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/moltong-1.jpg" alt="몰통 홈 화면" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/moltong-2.jpg" alt="상대·말투 설정" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/moltong-3.jpg" alt="iPhone 스타일 수신 화면" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/moltong-4.jpg" alt="암구호·안전 설정" width="100%" /></td></tr>
+</table>
 
 빠져나오기 어려운 자리에서 버튼 한 번이면, 가족·지인 역할의 AI가 진짜 전화처럼 걸어와 내 말에 맞춰 대화를 이어갑니다. 정해 둔 암구호를 말하면 보호자에게 위치와 함께 조용히 알림이 갑니다.
 
@@ -68,11 +70,13 @@ Flutter로 화면을 만들고 FastAPI로 서비스 흐름을 연결합니다.<b
 ### StudyFlow — 노트 작성에서 복습까지, 한 화면의 흐름으로
 <sub>FLUTTER WEB · 졸업 캡스톤</sub>
 
-<a href="https://study-flow-nine-iota.vercel.app"><img src="https://portfolioweb-zeta-six.vercel.app/images/studyflow-features.jpg" alt="StudyFlow 기능 소개 화면" width="100%" /></a>
+<table>
+  <tr><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-1.jpg" alt="노트 편집기" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-2.jpg" alt="AI 요약" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-3.jpg" alt="퀴즈와 정답 근거" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-4.jpg" alt="노트 기반 질문 답변" width="100%" /></td></tr>
+</table>
 
-PDF와 노트를 올리면 Gemini가 핵심 요약, 퀴즈·암기 노트, 개념 지식 그래프로 바꿔 주는 학습 워크스페이스입니다.
+노트를 쓰면 AI가 요약하고 퀴즈·마인드맵으로 만들어 주고, 나중에 물어보면 내 노트에서 근거와 함께 찾아 주는 학습 워크스페이스입니다.
 
-- **서비스 흐름** — 정리(블록 편집기·메모 동기화) → 요약(AI 요약) → 연결(지식 그래프) → 복습(자동 생성 퀴즈·암기 노트)
+- **서비스 흐름** — 쓰기(블록·슬래시 명령) → 요약(핵심 정리·문단 분석·암기 노트·마인드맵) → 복습(퀴즈를 본문 근거와 함께 채점) → 질문(뜻이 비슷한 노트까지 찾아 근거와 함께 답변)
 - **직접 구현** — 슬래시 명령과 인라인 AI 편집, SSE 스트리밍, Riverpod 상태 선택·RepaintBoundary·debounce로 입력 성능 개선
 
 `Flutter Web` `FastAPI` `Riverpod` `SSE` &nbsp;·&nbsp; [🌐 배포 사이트](https://study-flow-nine-iota.vercel.app) · [💻 GitHub](https://github.com/lshee9008/Study-Flow-Official)
@@ -80,16 +84,16 @@ PDF와 노트를 올리면 Gemini가 핵심 요약, 퀴즈·암기 노트, 개�
 ---
 
 ### PromMaster · 프롬장인 — 아이디어를 실행 가능한 프롬프트로
-<sub>AI PROMPT TOOL · 개인 프로젝트</sub>
+<sub>AI PROMPT TOOL · 개인 프로젝트 · 배포 종료</sub>
 
-<a href="https://promjang2.vercel.app"><img src="https://portfolioweb-zeta-six.vercel.app/images/prommaster-live.jpg" alt="프롬장인 배포 사이트 첫 화면" width="100%" /></a>
+<a href="https://github.com/lshee9008/Prompt-Master"><img src="https://portfolioweb-zeta-six.vercel.app/images/prommaster-live.jpg" alt="프롬장인 첫 화면 (배포 종료 전 캡처)" width="100%" /></a>
 
 막연한 아이디어를 AI가 바로 이해하는 프롬프트로 바꿔 주는 서비스입니다. 직종을 고르고 AI가 던지는 질문 다섯 개에 답하면, 6가지 프롬프트 기법을 적용한 기본형·상세형·장인형 결과를 한 번에 받습니다.
 
 - **서비스 흐름** — Google·이메일 로그인 → 8개 직종 선택 → 아이디어 입력 → 5단계 질문으로 맥락 구체화 → 세 가지 깊이의 프롬프트 비교·활용
 - **문제 해결** — `asyncio.gather`로 세 결과를 병렬 생성해 응답 시간 약 3배 단축, Redis 원자적 카운팅으로 무료 사용량 관리, 배포 빌드에서만 나던 Dart Record AOT 오류 해결
 
-`Flutter Web` `FastAPI` `Redis` `Firebase Auth` &nbsp;·&nbsp; [🌐 배포 사이트](https://promjang2.vercel.app) · [💻 GitHub](https://github.com/lshee9008/Prompt-Master)
+`Flutter Web` `FastAPI` `Redis` `Firebase Auth` &nbsp;·&nbsp; [💻 GitHub](https://github.com/lshee9008/Prompt-Master) <sub>· 현재 배포는 종료했습니다</sub>
 
 ---
 
