@@ -49,6 +49,19 @@ Flutter로 화면을 만들고 FastAPI로 서비스 흐름을 연결합니다.<b
 
 ---
 
+### M.A.R.S. — 분당서울대학교병원 의무기록 생성 데이터톤
+<sub>2025 SNUBH · CLINICAL AI DATATHON · 4인 팀 · <b>400여 팀 중 본선 최종 6위</b></sub>
+
+의무기록의 사실 관계를 지키며 퇴원기록지 초안을 생성하는 과제입니다. 예선에서는 입원 경과 요약과 자체 평가 환경을 맡았고, 본선에서는 팀의 생성 파이프라인 개발에 참여했습니다.
+
+- **입원 경과 요약** — 역할 심화 + 좋은·나쁜 예시 Few-Shot + 사실 검증 단계로 원문 베끼기와 환각을 줄임
+- **ICD 코드 예측** — 후보 목록을 프롬프트로 제한해 F1 **0.2점대 → 0.5 이상**
+- **평가 환경** — 대회 API가 막히자 Ollama로 생성·심판 모델을 분리한 로컬 LLM-as-a-Judge 환경을 직접 구축
+
+`Python` `Ollama` `BERTScore` `TF-IDF` `LLM-as-a-Judge` &nbsp;·&nbsp; <sub>환자 의무기록과 대회 데이터는 공개하지 않습니다.</sub>
+
+---
+
 ### Moltong · 몰통 — 곤란한 순간, 자연스러운 전화 한 통
 <sub>AI CALL · FLUTTER · 5인 팀 '위기탈출넘버콜' · <b>원티드 AI 챔피언십 본선 TOP 10</b></sub>
 
@@ -116,19 +129,6 @@ ChatGPT·Claude·Gemini·이미지 생성·코딩 에이전트마다 잘 따르�
 - **담당 역할** — 기획, 서비스 구조, AI·서버 엔진(PDF·PPT·DOCX·HWP·이미지 다형식 파싱 → Gemini 분석)과 프론트엔드 연동
 
 `Flutter Web` `FastAPI` `Gemini` `SSE` `Firestore` `Railway` &nbsp;·&nbsp; [🌐 배포 사이트](https://fit-learn-phi.vercel.app) · [💻 GitHub](https://github.com/lshee9008/FitLearn)
-
----
-
-### M.A.R.S. — 분당서울대학교병원 의무기록 생성 데이터톤
-<sub>2025 SNUBH · CLINICAL AI DATATHON · 4인 팀 · <b>400여 팀 중 본선 최종 6위</b></sub>
-
-의무기록의 사실 관계를 지키며 퇴원기록지 초안을 생성하는 과제입니다. 예선에서는 입원 경과 요약과 자체 평가 환경을 맡았고, 본선에서는 팀의 생성 파이프라인 개발에 참여했습니다.
-
-- **입원 경과 요약** — 역할 심화 + 좋은·나쁜 예시 Few-Shot + 사실 검증 단계로 원문 베끼기와 환각을 줄임
-- **ICD 코드 예측** — 후보 목록을 프롬프트로 제한해 F1 **0.2점대 → 0.5 이상**
-- **평가 환경** — 대회 API가 막히자 Ollama로 생성·심판 모델을 분리한 로컬 LLM-as-a-Judge 환경을 직접 구축
-
-`Python` `Ollama` `BERTScore` `TF-IDF` `LLM-as-a-Judge` &nbsp;·&nbsp; <sub>환자 의무기록과 대회 데이터는 공개하지 않습니다.</sub>
 
 ---
 
