@@ -105,16 +105,17 @@ ChatGPT·Claude·Gemini·이미지 생성·코딩 에이전트마다 잘 따르�
 <sub>AI EDUCATION · KIT 바이브코딩 공모전 · 2인 팀 '표리부동'</sub>
 
 <table>
-  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d1.jpg" alt="랜딩" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d2.jpg" alt="작동 방식" width="100%" /></td></tr>
-  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d3.jpg" alt="6가지 설명 방식" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d4.jpg" alt="원본 비교" width="100%" /></td></tr>
+  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d1.jpg" alt="시각형 맞춤 교안" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d2.jpg" alt="원본과 비교" width="100%" /></td></tr>
+  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d3.jpg" alt="AI 튜터" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d4.jpg" alt="교수 대시보드" width="100%" /></td></tr>
 </table>
 
 1분 진단으로 학습 성향을 파악하고, 교수님이 올린 교안을 그림형·대화형·실습형 등 내게 맞는 설명으로 실시간 재구성하는 AI 맞춤 학습 플랫폼입니다. 회원가입 없이 체험 계정으로 바로 써볼 수 있습니다.
 
-- **서비스 흐름** — 6문항 성향 진단(정밀 22문항) → 교수님이 교안 업로드·AI 핵심 포인트 확정 → 6가지 설명 방식으로 재구성된 교안을 원본과 나란히 학습 → 교안 근거로 답하는 AI 튜터에게 질문
+- **서비스 흐름** — 6문항 성향 진단(정밀 22문항) → 교수님이 교안 업로드·AI 핵심 포인트 확정 → 6가지 설명 방식으로 재구성된 교안을 원본과 나란히 학습 → 교안 근거로 답하는 AI 튜터에게 질문 → 교수 대시보드에서 성향 분포·AI 수업 인사이트 확인
+- **설계 포인트** — 맞춤 교안·튜터 SSE 스트리밍(첫 문장 약 2초), Gemini 모델 폴백·쿼터 쿨다운, Firebase 장애 시 인메모리 저장소로 자동 전환
 - **담당 역할** — 기획, 서비스 구조, AI·서버 엔진(PDF·PPT·DOCX·HWP·이미지 다형식 파싱 → Gemini 분석)과 프론트엔드 연동
 
-`Flutter Web` `FastAPI` `Gemini` `Firebase` &nbsp;·&nbsp; [🌐 배포 사이트](https://fit-learn-phi.vercel.app) · [💻 GitHub](https://github.com/lshee9008/FitLearn)
+`Flutter Web` `FastAPI` `Gemini` `SSE` `Firestore` `Railway` &nbsp;·&nbsp; [🌐 배포 사이트](https://fit-learn-phi.vercel.app) · [💻 GitHub](https://github.com/lshee9008/FitLearn)
 
 ---
 
