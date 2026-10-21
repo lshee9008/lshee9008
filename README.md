@@ -84,17 +84,20 @@ Flutter로 화면을 만들고 FastAPI로 서비스 흐름을 연결합니다.<b
 
 ---
 
-### PromMaster · 프롬장인 — 아이디어를 실행 가능한 프롬프트로
-<sub>AI PROMPT TOOL · 개인 프로젝트 · 배포 종료</sub>
+### PromMaster · 프롬장인 — 한 줄 아이디어를 바로 쓰는 프롬프트로
+<sub>AI PROMPT STUDIO · 개인 프로젝트</sub>
 
-<a href="https://github.com/lshee9008/Prompt-Master"><img src="https://portfolioweb-zeta-six.vercel.app/images/prommaster-live.jpg" alt="프롬장인 첫 화면 (배포 종료 전 캡처)" width="100%" /></a>
+<table>
+  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/prommaster-d1.jpg" alt="3가지 버전과 품질 점수" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/prommaster-d2.jpg" alt="Before/After 실행 비교" width="100%" /></td></tr>
+  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/prommaster-d3.jpg" alt="프롬프트 진단" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/prommaster-d4.jpg" alt="라이브 데모 온보딩" width="100%" /></td></tr>
+</table>
 
-막연한 아이디어를 AI가 바로 이해하는 프롬프트로 바꿔 주는 서비스입니다. 직종을 고르고 AI가 던지는 질문 다섯 개에 답하면, 6가지 프롬프트 기법을 적용한 기본형·상세형·장인형 결과를 한 번에 받습니다.
+ChatGPT·Claude·Gemini·이미지 생성·코딩 에이전트마다 잘 따르는 형식으로 프롬프트를 설계하고, 바뀌는 값은 `{{변수}}`로 비워 두고, 실제로 실행해 Before/After를 비교하는 프롬프트 스튜디오입니다.
 
-- **서비스 흐름** — Google·이메일 로그인 → 8개 직종 선택 → 아이디어 입력 → 5단계 질문으로 맥락 구체화 → 세 가지 깊이의 프롬프트 비교·활용
-- **문제 해결** — `asyncio.gather`로 세 결과를 병렬 생성해 응답 시간 약 3배 단축, Redis 원자적 카운팅으로 무료 사용량 관리, 배포 빌드에서만 나던 Dart Record AOT 오류 해결
+- **서비스 흐름** — 아이디어 입력 → 대상 AI 선택 → 질문 4개로 정교화 → 빠른·실무·전문가 3가지 버전과 품질 점수 → 변수 채워 실행 비교 → 보관함. 기존 프롬프트는 5가지 기준으로 진단
+- **문제 해결** — 3번 호출하던 생성을 구조화 출력 1회로 줄여 입력 토큰 1/3·파싱 실패 0, Gemini 모델 퇴역 대응 폴백, 일일 크레딧·전체 상한·24시간 캐시로 비용 상한 고정
 
-`Flutter Web` `FastAPI` `Redis` `Firebase Auth` &nbsp;·&nbsp; [💻 GitHub](https://github.com/lshee9008/Prompt-Master) <sub>· 현재 배포는 종료했습니다</sub>
+`Flutter Web` `FastAPI` `Gemini` `Firebase Auth` `Railway` &nbsp;·&nbsp; [🔗 서비스](https://promjang2.vercel.app) · [💻 GitHub](https://github.com/lshee9008/Prompt-Master)
 
 ---
 
