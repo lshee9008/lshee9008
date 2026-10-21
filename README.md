@@ -71,7 +71,8 @@ Flutter로 화면을 만들고 FastAPI로 서비스 흐름을 연결합니다.<b
 <sub>FLUTTER WEB · 졸업 캡스톤</sub>
 
 <table>
-  <tr><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-1.jpg" alt="노트 편집기" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-2.jpg" alt="AI 요약" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-3.jpg" alt="퀴즈와 정답 근거" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-4.jpg" alt="노트 기반 질문 답변" width="100%" /></td></tr>
+  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-d1.jpg" alt="AI 요약" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-d2.jpg" alt="자동 퀴즈" width="100%" /></td></tr>
+  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-d3.jpg" alt="암기 노트" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/studyflow-d4.jpg" alt="노트 기반 질문" width="100%" /></td></tr>
 </table>
 
 노트를 쓰면 AI가 요약하고 퀴즈·마인드맵으로 만들어 주고, 나중에 물어보면 내 노트에서 근거와 함께 찾아 주는 학습 워크스페이스입니다.
@@ -101,7 +102,8 @@ Flutter로 화면을 만들고 FastAPI로 서비스 흐름을 연결합니다.<b
 <sub>AI EDUCATION · KIT 바이브코딩 공모전 · 2인 팀 '표리부동'</sub>
 
 <table>
-  <tr><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-1.jpg" alt="1분 학습 성향 진단" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-2.jpg" alt="진단 결과" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-3.jpg" alt="6가지 설명 방식과 원본 비교" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-4.jpg" alt="핵심 포인트와 AI 튜터" width="100%" /></td></tr>
+  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d1.jpg" alt="랜딩" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d2.jpg" alt="작동 방식" width="100%" /></td></tr>
+  <tr><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d3.jpg" alt="6가지 설명 방식" width="100%" /></td><td width="50%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-d4.jpg" alt="원본 비교" width="100%" /></td></tr>
 </table>
 
 1분 진단으로 학습 성향을 파악하고, 교수님이 올린 교안을 그림형·대화형·실습형 등 내게 맞는 설명으로 실시간 재구성하는 AI 맞춤 학습 플랫폼입니다. 회원가입 없이 체험 계정으로 바로 써볼 수 있습니다.
