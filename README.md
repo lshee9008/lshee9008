@@ -98,13 +98,15 @@ Flutter로 화면을 만들고 FastAPI로 서비스 흐름을 연결합니다.<b
 ---
 
 ### FitLearn — 같은 교안도 각자 이해하기 쉬운 방식으로
-<sub>AI EDUCATION · KIT 바이브코딩 공모전 · 팀 프로젝트</sub>
+<sub>AI EDUCATION · KIT 바이브코딩 공모전 · 2인 팀 '표리부동'</sub>
 
-<a href="https://fit-learn-phi.vercel.app"><img src="https://portfolioweb-zeta-six.vercel.app/images/fitlearn-live.jpg" alt="FitLearn 로그인 화면" width="100%" /></a>
+<table>
+  <tr><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-1.jpg" alt="1분 학습 성향 진단" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-2.jpg" alt="진단 결과" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-3.jpg" alt="6가지 설명 방식과 원본 비교" width="100%" /></td><td width="25%"><img src="https://portfolioweb-zeta-six.vercel.app/images/apps/fitlearn-4.jpg" alt="핵심 포인트와 AI 튜터" width="100%" /></td></tr>
+</table>
 
-교수자가 올린 교안을 학생 한 명 한 명의 학습 성향(VARK)과 과목별 수준에 맞춰 다시 구성해 주는 AI 맞춤 학습 플랫폼입니다.
+1분 진단으로 학습 성향을 파악하고, 교수님이 올린 교안을 그림형·대화형·실습형 등 내게 맞는 설명으로 실시간 재구성하는 AI 맞춤 학습 플랫폼입니다. 회원가입 없이 체험 계정으로 바로 써볼 수 있습니다.
 
-- **서비스 흐름** — 교수자가 자료를 올리고 핵심 포인트 확정 → 학생은 학습 성향·과목 수준 진단 → AI가 맞춤 교안을 생성하고 원본과 나란히 학습
+- **서비스 흐름** — 6문항 성향 진단(정밀 22문항) → 교수님이 교안 업로드·AI 핵심 포인트 확정 → 6가지 설명 방식으로 재구성된 교안을 원본과 나란히 학습 → 교안 근거로 답하는 AI 튜터에게 질문
 - **담당 역할** — 기획, 서비스 구조, AI·서버 엔진(PDF·PPT·DOCX·HWP·이미지 다형식 파싱 → Gemini 분석)과 프론트엔드 연동
 
 `Flutter Web` `FastAPI` `Gemini` `Firebase` &nbsp;·&nbsp; [🌐 배포 사이트](https://fit-learn-phi.vercel.app) · [💻 GitHub](https://github.com/lshee9008/FitLearn)
